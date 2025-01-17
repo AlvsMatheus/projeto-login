@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*cores:
+verde: #49a09d
+lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to top, #49a09d, #5f2c82 );
+    width: 100vw;
+    height: 100vh;
+
+}
+
+div#imagem{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+}
